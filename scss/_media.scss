@@ -1,0 +1,24 @@
+// laptop
+@media only screen and (max-width: 1024px) {
+    .header-row {
+        height: 107px;
+    }
+    .header-logo {
+        width: 166px;
+        height: auto;
+    }       
+    .nav {
+        margin-left: 90px;
+    } 
+    .btn.header-btn {
+        max-width: 129px;
+        height: 46px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .nav {
+        display: none;
+    }
+    .mobile-nav.hidden {
+    }
+}
