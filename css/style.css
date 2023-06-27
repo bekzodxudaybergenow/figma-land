@@ -1,0 +1,61 @@
+:root {
+  --ULTRAMARINE-BLUE: #4452FE;
+  --EERIE-BLACK: #181818;
+  --WHITE: #fff;
+  --BLACK: #000;
+  --SMOKY-BLACK: #0E0E0E;
+  --DAVYS-GREY: #5C5C5C;
+  --graphik: "Graphik", sans-serif;
+  --roboto: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("../fonts/Graphik/Graphik-Regular.woff2") format("woff2"), url("../fonts/Graphik/Graphik-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("../fonts/Graphik/Graphik-Medium.woff2") format("woff2"), url("../fonts/Graphik/Graphik-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--graphik);
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--EERIE-BLACK);
+}
+
+.wrapper-row {
+  height: 100vh;
+}
+
+.container {
+  max-width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */

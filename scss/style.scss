@@ -1,0 +1,29 @@
+@import './var';
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--graphik);
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--EERIE-BLACK);
+}
+.wrapper-row {
+    height: 100vh;
+}
+.container {
+    max-width: 1260px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
