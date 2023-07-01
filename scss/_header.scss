@@ -1,5 +1,13 @@
 .header {
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--EERIE-BLACK);
+    transition: all .2s;
+}
+.header-shadow {
+    box-shadow: 0 10px 20px 0 var(--SMOKY-BLACK);
 }
 .header-row {
     display: flex;
@@ -38,6 +46,7 @@
     margin-left: auto;
 }
 .menu-btn {
+    display: none;
     width: 60px;
     height: 46px;
     margin-left: 16px;

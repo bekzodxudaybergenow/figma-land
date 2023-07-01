@@ -1,0 +1,5 @@
+Figma: https://www.figma.com/file/zHDYJc6nJjZ3X9uhvSJmyi/Figma-startup-landing-page-dark-(Community)?node-id=0%3A3517&mode=dev
+Github: https://github.com/bekzodxudaybergenow/figma-land
+
+
+Izoh: Bu loyihada header nav harakatlanganda(scroll Y-o'qi) bo'yincha soya(box-shadow) chiqarishda qiynalyabman.

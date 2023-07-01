@@ -14,6 +14,7 @@
         max-width: 129px;
         height: 46px;
     }
+    
 }
 
 // laptop and tablet
@@ -29,8 +30,8 @@
         min-height: 320px;
         position: absolute;
         top: 107px;
-        left: 20px;
-        right: 20px;
+        left: 0;
+        right: 0;
         background-color: var(--SMOKY-BLACK);
         padding: 40px 0;
         margin: 0 auto;
@@ -40,15 +41,22 @@
             padding: 0 0 20px 0;
         }
     }
+    .menu-btn {
+        display: block;
+    }
     
 }
 // mobile
 @media only screen and (max-width: 425px) {
     .header-row {
         justify-content: space-between;
+        height: 65px;
     }
     .btn.header-btn {
         display: none;
+    }
+    .mobile-nav {
+        top: 65px;
     }
     .header-mobile-btn {
         display: block;
@@ -60,5 +68,9 @@
         &:hover {
             opacity: .8;
         }
+    }
+    .menu-btn {
+        width: 40px;
+        height: 32px;
     }
 }
