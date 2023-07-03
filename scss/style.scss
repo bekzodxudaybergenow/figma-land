@@ -1,5 +1,6 @@
 @import './var';
 @import './header';
+@import './hero';
 @import './media';
 
 *,
@@ -14,6 +15,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     background-color: var(--EERIE-BLACK);
+    letter-spacing: 0.2px;
 }
 .wrapper-row {
     height: 100vh;
@@ -51,7 +53,4 @@ ul {
 }
 .hidden {
     display: none;
-}
-.hero {
-    padding-top: 116px;
 }
