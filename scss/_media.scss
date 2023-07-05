@@ -77,7 +77,7 @@
     }
 }
 
-
+// _______________
 // Hero--
 // laptop
 @media only screen and (max-width: 1024px) {
@@ -143,6 +143,8 @@
     }
 }
 
+// Hero--
+// Mobile
 @media only screen and (max-width: 425px) {
     .hero {
         padding-top: 124px;
@@ -168,5 +170,19 @@
     .hero-try-for-free-btn.btn,
     .hero-learn-more-btn.btn {
         max-width: 280px;
+    }
+}
+
+// _________________
+// features--
+// laptop
+@media only screen and (max-width: 1125px) {
+    .features--content-title {
+    }
+    .features-insights {
+        // flex-wrap: wrap;
+    }
+    .features-image {
+        height: auto;
     }
 }

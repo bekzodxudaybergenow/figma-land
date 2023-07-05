@@ -2,6 +2,7 @@
 @import './header';
 @import './hero';
 @import './media';
+@import './features';
 
 *,
 *::before,
@@ -16,6 +17,7 @@ body {
     line-height: 24px;
     background-color: var(--EERIE-BLACK);
     letter-spacing: 0.2px;
+    color: var(--WHITE);
 }
 .wrapper-row {
     height: 100vh;
@@ -30,6 +32,9 @@ a {
 }
 ul {
     list-style: none;
+}
+h1,h2,h3,h4 {
+    margin: 0;
 }
 .btn {
     display: flex;
