@@ -291,7 +291,7 @@
 .contents-text {
   max-width: 591px;
   text-align: center;
-  margin-bottom: 46px;
+  margin-bottom: 58px;
 }
 
 .contents-text-title {
@@ -315,7 +315,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 476px;
+  width: 476px;
   background-color: var(--WHITE);
   border-radius: 10px;
   padding: 40px 35px;
@@ -348,11 +348,15 @@
   margin-top: auto;
 }
 
-.work-iamge {
+.work-image {
+  width: 405px;
+  height: 227px;
   border-radius: 10px;
 }
 
-.design-iamge {
+.design-image {
+  width: 379px;
+  height: 276px;
   border-radius: 14px;
 }
 
@@ -608,6 +612,86 @@
   .features-item-desc {
     font-size: 14px;
     line-height: 19px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .contents-text {
+    max-width: 538px;
+  }
+  .contents-text-title {
+    font-size: 42px;
+  }
+  .contents-text-desc {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .contents-list {
+    gap: 30px;
+  }
+  .contents-list-item {
+    max-width: 432px;
+    width: 100%;
+    padding: 30px 25px;
+  }
+  .work-image {
+    width: 100%;
+    height: auto;
+  }
+  .design-image {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contents {
+    padding-top: 154px;
+  }
+  .contents-list-item {
+    max-width: 385px;
+  }
+  .contents-item-title {
+    margin-bottom: 5px;
+  }
+  .contents-item-desc {
+    max-width: 252px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 35px;
+  }
+  .contents-item-btn.btn2 {
+    margin-bottom: 20px;
+    padding: 10px 39px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .contents-text {
+    max-width: 502px;
+  }
+  .contents-text-desc {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .contents-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contents-list-item {
+    max-width: 476px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .contents-text-desc {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .contents-item-title {
+    line-height: 26px;
+    text-align: center;
+  }
+  .contents-item-btn.btn2 {
+    font-size: 14px;
+    padding: 5px 20px;
+    margin-bottom: 24px;
   }
 }
 *,
