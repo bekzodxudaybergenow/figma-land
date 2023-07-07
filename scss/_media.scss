@@ -15,7 +15,6 @@
         max-width: 129px;
         height: 46px;
     }
-    
 }
 // Header--
 // laptop and tablet
@@ -116,7 +115,6 @@
         max-width: 144px;
     }
 }
-
 // Hero--
 // Tablet
 @media only screen and (max-width: 768px) {
@@ -142,7 +140,6 @@
         max-width: 134px;
     }
 }
-
 // Hero--
 // Mobile
 @media only screen and (max-width: 425px) {
@@ -175,14 +172,111 @@
 
 // _________________
 // features--
-// laptop
-@media only screen and (max-width: 1125px) {
-    .features--content-title {
+// laptop L
+@media only screen and (max-width: 1120px) {
+    .features-content {
+        margin-bottom: 70px;
+    }
+    .features-content-title {
+        font-size: 42px;
+        margin-bottom: 5px;
+    }
+    .features-content-desc  {
+        font-size: 18px;
+        line-height: 25px;
     }
     .features-insights {
-        // flex-wrap: wrap;
+        column-gap: 12px;
     }
     .features-image {
         height: auto;
+
+        & img {
+            height: auto;
+        }
+    }
+    .features-list-item + * {
+        margin-top: 60px;
+    }
+    .features-item-title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    .features-item-desc {
+        line-height: 21px;
+    }
+}
+// features--
+// laptop
+@media only screen and (max-width: 1024px) {
+    .features {
+        padding-top: 124px;
+    }
+    .features-content {
+        max-width: 502px;
+    }
+    .features-content-desc  {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .features-item-desc {
+        font-size: 16px;
+    }
+}
+// features--
+// laptop and tablet
+@media only screen and (max-width: 920px) {
+    .features-insights {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .features-content {
+        margin-bottom: 50px;
+    }
+    .feature-list {
+        display: flex;
+        max-width: 520px;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 65px;
+        column-gap: 15px;
+        row-gap: 40px;
+
+    }
+    .features-list-item {
+        max-width: 249px;
+        margin-top: 0;
+    }
+}   
+// features--
+// tablet
+@media only screen and (max-width: 552px) {
+    .feature-list {
+        justify-content: center;
+    }
+}
+// features--
+// mobile
+@media only screen and (max-width: 425px) {
+    .features {
+        padding-top: 95px;
+    }
+    .features-content {
+        margin-bottom: 28px;
+    }
+    .features-content-title {
+        font-size: 32px;
+    }
+    .features-content-desc  {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .feature-list {
+        margin-top: 47px;
+    }
+    .features-item-desc {
+        font-size: 14px;
+        line-height: 19px;
     }
 }

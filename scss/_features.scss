@@ -2,16 +2,16 @@
     padding-top: 162px;
 }
 .features-row {
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .features-content {
     max-width: 602px;
     text-align: center;
     margin-bottom: 80px;
 }
-.features--content-title {
+.features-content-title {
     font-size: 52px;
     font-weight: 400;
     line-height: 62px;
@@ -23,12 +23,12 @@
     line-height: 30px;
 }
 .features-insights {
-    // display: flex;
-    // column-gap: 27px;
+    display: flex;
+    column-gap: 27px;
 }
 .features-image {
-    max-width: 696px;
-    height: 659px;
+    max-width: 752px;
+    height: 759px;
 
     & img {
         display: block;
