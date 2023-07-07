@@ -2,6 +2,7 @@
 @import './header';
 @import './hero';
 @import './features';
+@import './contents';
 @import './media';
 
 *,
@@ -54,6 +55,20 @@ h1,h2,h3,h4 {
     &:hover {
         background-color: var(--ULTRAMARINE-BLUE);
         border: none;
+    }
+}
+.btn2 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    background-color: var(--ULTRAMARINE-BLUE);
+    color: var(--WHITE);
+    padding: 13px 46px;
+    transition: ease-in-out .3s;
+
+    &:hover {
+        opacity: .9;
     }
 }
 .hidden {
