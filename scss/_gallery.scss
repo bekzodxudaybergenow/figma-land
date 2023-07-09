@@ -1,5 +1,6 @@
 .gallery {
     padding-top: 200px;
+    padding-bottom: 50px;
 }
 .gallery-row {
     display: flex;
@@ -36,11 +37,11 @@
 }
 .gallery-btn.btn2 {
     background-color: transparent;
-    border: 1px solid var(--WHITE);
+    box-shadow: 0 0 0 1px var(--WHITE);
     padding: 13px 40px;
 
     &:hover {
         background-color: var(--ULTRAMARINE-BLUE);
-        // border: transparent;
+        box-shadow: none;
     }
 }
