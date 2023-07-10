@@ -476,3 +476,32 @@
         line-height: 21px;
     }
 }
+
+
+
+// _________________
+// testimonials--
+// laptop L
+@media only screen and (max-width: 1120px) {
+    .testimonials-title {
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+    .testimonials-card {
+        // max-width: 430px;
+        padding: 30px;
+    }
+}
+// testimonials--
+// mobile
+@media only screen and (max-width: 425px) {
+    .testimonials-card-top {
+        margin-bottom: 20px;
+    }
+    .testimonials-card-conten {
+        & p {
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+}
