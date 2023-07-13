@@ -12,8 +12,6 @@
     max-width: 513px;
     width: 100%;
 }
-.footer-list {
-}
 .footer-list-title {
     font-size: 20px;
     font-weight: 500;
@@ -43,6 +41,10 @@
 .footer-contact-box {
     display: flex;
     align-items: center;
+    
+    & + * {
+        margin-top: 10px;
+    }
 }
 .footer-contact-element {
     font-weight: 500;
