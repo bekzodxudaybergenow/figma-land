@@ -1,0 +1,40 @@
+.opentype {
+    padding: 180px 0;
+}
+.opentype-row {
+    display: flex;
+    align-items: center;
+    column-gap: 86px;
+    justify-content: space-between;
+    min-height: 370px;
+    max-width: 1219px;
+    width: 100%;
+    background-color: var(--JET);
+    border-radius: 33px;
+    overflow: hidden;
+}
+.opentype-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 544px;
+    width: 100%;
+    padding-left: 94px;
+}
+.opentype-title {
+    max-width: 499px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    margin-bottom: 37px;
+}
+.opentype-btn.btn2 {
+    align-self: flex-start;
+    padding: 13px 67px;
+}
+.opentype-image {
+    width: 585px;
+
+    & img {
+        display: block;
+    }
+}

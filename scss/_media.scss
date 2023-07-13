@@ -505,3 +505,122 @@
         }
     }
 }
+
+
+
+// _________________
+// opentype--
+// laptop L
+@media only screen and (max-width: 1128px) {
+    .opentype-row {
+        min-height: 305px;
+    }
+    .opentype-title {
+        font-size: 42px;
+        line-height: 56px;
+        margin-bottom: 27px;
+    }
+    .opentype-image {
+        & img {
+            width: 485px;
+        }
+    }
+}
+// opentype--
+// laptop L
+@media only screen and (max-width: 977px) {
+    .opentype-title {
+        font-size: 30px;
+        line-height: 42px;
+        margin-bottom: 27px;
+    }
+    .opentype-btn.btn2 {
+        padding: 10px 42px;
+    }
+    .opentype-image {
+        transform: translateY(-5px);
+        & img {
+            width: 438px;
+        }
+    }
+}  
+// opentype--
+// laptop 
+@media only screen and (max-width: 928px) {
+    .opentype-title {
+        margin-bottom: 20px;
+    }
+    .opentype-btn.btn2 {
+        padding: 8px 34px;
+    }
+    .opentype-image {
+        transform: translateY(-3px);
+        & img {
+            width: 383px;
+        }
+    } 
+} 
+// opentype--
+// laptop > tablet
+@media only screen and (max-width: 920px) {
+    .opentype-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .opentype-content {
+        max-width: 585px;
+        text-align: center;
+        padding: 35px 0 35px
+    }
+    .opentype-title {
+        align-self: center;
+    }
+    .opentype-btn.btn2 {
+        align-self: center;
+    }
+    .opentype-image {
+        transform: none;
+        & img {
+            margin: 0 auto;
+        }
+    } 
+}
+// opentype--
+// tablet
+@media only screen and (max-width: 549px) {
+    .opentype {
+        padding: 104px 0 0;
+        background-color: var(--EERIE-BLACK2);
+    }
+    .opentype-row {
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .opentype-content {
+        padding: 0;
+        margin-bottom: 104px;
+    }
+    .opentype-image {
+        max-width: 541px;
+        max-height: 473px;
+
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: bottom;
+        }
+    } 
+}
+// opentype--
+// mobile
+@media only screen and (max-width: 375px) {
+    .opentype-title {
+        font-size: 42px;
+        line-height: 45px;
+        margin-bottom: 24px;
+    }
+    .opentype-content {
+        margin-bottom: 85px;
+    }
+}
