@@ -1,5 +1,5 @@
 # Figma-land
-Figma: [Maket](https://github.com/bekzodxudaybergenow/figma-land/assets/121816606/d936cfda-c0b8-496d-82f8-d971b865b07e)\
+Figma: [Maket](https://www.figma.com/file/zHDYJc6nJjZ3X9uhvSJmyi/Figma-startup-landing-page-dark-(Community)?type=design&node-id=0-3517&mode=design&t=E1E6PZdMCn1L3jQC-0)\
 Netlify: [View](https://figma-landd.netlify.app/)
 
 ![figma-land](https://github.com/bekzodxudaybergenow/figma-land/blob/master/design/figma-land.png)
